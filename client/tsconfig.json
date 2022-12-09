@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // implicit means you didn't assign it yourself
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    // Call function with appropriate types 
+    "strictBindCallApply": true,
+    // This option makes sure that you can't assign null or undefined to a variable of an existing type
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    // This is an option for creating a class. Declared members of a class need to be assigned with values, 
+    // either in the constructor or directly in the declaration.
+    "strictPropertyInitialization": true,
+    // "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
